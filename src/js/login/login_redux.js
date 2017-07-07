@@ -20,7 +20,7 @@ class Login extends Component {
         store.dispatch({
             type: 'REGISTER_BUTTON',
             status: 'register'
-        })
+        });
     }
     handleConfirm() {
         console.log("rendering");
@@ -82,8 +82,8 @@ class Login extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }
 
-export default Login
+export default Login;

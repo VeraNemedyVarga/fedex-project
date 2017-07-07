@@ -42,8 +42,8 @@ function loginUser(name, password, confirmpassword, email) {
                     dispatch({type: 'TOKEN_PROVIDED', payload: localStorage.getItem('token')});
                     window.location.href = '/dashboard';
                 }
-            })
+            });
         }
-    })
+    });
 }
 export default loginUser;

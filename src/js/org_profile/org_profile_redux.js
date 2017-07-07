@@ -28,8 +28,8 @@ class Profile extends Component {
                     {projectList}
                 </ul>
             </div>
-        )
+        );
     }
 }
 
-export default Profile
+export default Profile;

@@ -20,9 +20,8 @@ class App extends Component {
                     // <Route exact={true} path='/login' render={() => <Login {...this.props}/>} />
                 </div>
             </Router>
-        )
+        );
     }
-
 }
 
 const render = () => {
