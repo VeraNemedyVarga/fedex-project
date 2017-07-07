@@ -1,5 +1,5 @@
 'use strict';
-import axios from 'axios'; 
+import axios from 'axios';
 
 let initialState = {
     status: 'login',
@@ -20,7 +20,7 @@ const loginReducer = (state=initialState, action) => {
             state = {...state, data: action.payload}
             break;
         }
-        case 'FETCHING_TOKEN': {
+        case 'FETCHING_LOGIN': {
             state = {...state, data: action.payload}
             break;
         }

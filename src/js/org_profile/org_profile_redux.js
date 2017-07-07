@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // import registerUser from './register_ajax.js';
 import store from '../../main_store.js';
 
-class Profile extends Component {
+class getProfile extends Component {
     constructor(props) {
         super(props);
     }
@@ -12,8 +12,8 @@ class Profile extends Component {
         let projects= ["goodstuff", "badstuff"];
         let projectList = [];
         for (let i=0; i<projects.length; i++) {
-            console.log(projects);
-            console.log(projectList);
+            // console.log(projects);
+            // console.log(projectList);
             projectList.push(<li key={i.toString()}> {projects[i]} </li>)
         }
         return(

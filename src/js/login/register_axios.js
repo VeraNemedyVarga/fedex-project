@@ -40,7 +40,7 @@ function loginUser(name, password, confirmpassword, email) {
                 } else {
                     localStorage.setItem('token', response.data.token);
                     dispatch({type: 'TOKEN_PROVIDED', payload: localStorage.getItem('token')});
-                    window.location.href = '/dashboard';
+                    window.location.href = '/profile';
                 }
             })
         }
